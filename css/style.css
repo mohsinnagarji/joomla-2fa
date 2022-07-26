@@ -1,0 +1,61 @@
+/* General */
+body {
+  font-family: "Open-sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
+
+/* Navbar Section */
+.navbar-logo {
+  width: 15rem;
+  height: auto;
+}
+
+@media (max-width: 400px) {
+  .navbar-logo {
+    width: 10rem;
+  }
+}
+
+/* Hero Section */
+#hero-image {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  width: 100em;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(12px);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+@media (max-width: 992px) {
+  #hero-image {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero-image {
+    width: 20rem;
+  }
+}
+
+.hero-bg {
+  background-color: #36517e;
+}
+
+/* About */
+#about-heading {
+  color: #36517e;
+}
