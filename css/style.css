@@ -59,3 +59,24 @@ h6 {
 #about-heading {
   color: #36517e;
 }
+
+/* Key Features */
+.key-box {
+  background-color: white;
+  border-radius: 25px;
+  margin: 1rem;
+  width: 25rem;
+  height: 17rem;
+}
+
+.key-section {
+  background-color: #ebeef2;
+}
+
+#key-heading {
+  color: #36517e;
+}
+
+.key-icons {
+  color: #36517e;
+}
