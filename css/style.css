@@ -34,6 +34,7 @@ h6 {
   0% {
     transform: translateY(12px);
   }
+
   100% {
     transform: translateY(-12px);
   }
@@ -56,7 +57,7 @@ h6 {
 }
 
 /* About */
-#about-heading {
+#heading-color {
   color: #36517e;
 }
 
@@ -73,10 +74,58 @@ h6 {
   background-color: #ebeef2;
 }
 
-#key-heading {
+.key-icons {
   color: #36517e;
 }
 
-.key-icons {
-  color: #36517e;
+/* App Carousel */
+.app-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.app-gallery {
+  display: flex;
+  animation: scroll 25s linear infinite;
+}
+
+.app-gallery:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 6.38));
+  }
+}
+
+.app-icons {
+  width: 15%;
+  padding: 3rem;
+}
+
+.app-icons:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/* Benefits */
+.benefits {
+  background-color: #EBEEF2;
+}
+
+.benefits-img {
+  width: 80%;
+}
+
+.benefits-content {
+  width: 50%;
+  padding-top: 10rem;
+}
+
+.benefits-joomla {
+  width: 60%;
 }
