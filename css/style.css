@@ -68,6 +68,12 @@ h6 {
   margin: 1rem;
   width: 25rem;
   height: 17rem;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
 .key-section {
@@ -86,7 +92,7 @@ h6 {
 
 .app-gallery {
   display: flex;
-  animation: scroll 25s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .app-gallery:hover {
@@ -99,12 +105,12 @@ h6 {
   }
 
   100% {
-    transform: translateX(calc(-250px * 6.38));
+    transform: translateX(calc(-15.625rem * 4.52));
   }
 }
 
 .app-icons {
-  width: 15%;
+  width: 8%;
   padding: 3rem;
 }
 
@@ -121,11 +127,76 @@ h6 {
   width: 80%;
 }
 
-.benefits-content {
-  width: 50%;
-  padding-top: 10rem;
+@media (min-width: 992px) {
+  .benefits-content {
+    width: 50%;
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .benefits-content {
+    padding: 3rem;
+  }
 }
 
 .benefits-joomla {
   width: 60%;
+}
+
+/* 2FA Methods */
+.method-box {
+  width: 350px;
+  background-color: #EBEEF2;
+  border-radius: 30px;
+  margin: 2rem;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+/* Pricing */
+.pricing {
+  background-color: #EBEEF2;
+}
+
+.pricing-box {
+  border-radius: 50px;
+  padding: 2rem;
+  margin: 2rem;
+  width: 375px;
+  background-color: white;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+#price-range {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.plan-name {
+  font-size: 2rem;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+}
+
+.local-btn {
+  border-radius: 20px;
+}
+
+input[value] {
+  font-weight: bold;
 }
