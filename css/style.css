@@ -97,6 +97,7 @@ h6 {
 
 .app-gallery:hover {
   animation-play-state: paused;
+  transition-delay: 1s;
 }
 
 @keyframes scroll {
@@ -184,6 +185,10 @@ h6 {
 
 .plan-name {
   font-size: 2rem;
+}
+
+.free-btn {
+  margin-top: 4.2rem;
 }
 
 select {
