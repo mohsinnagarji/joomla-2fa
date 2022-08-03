@@ -86,6 +86,7 @@ h6 {
 
 /* App Carousel */
 .app-carousel {
+  display: flex;
   overflow: hidden;
 }
 
@@ -187,7 +188,9 @@ h6 {
 }
 
 .free-btn {
-  margin-top: 4.2rem;
+  margin-top: 4rem;
+  padding: 0.6rem;
+  margin-bottom: 5px;
 }
 
 select {
@@ -203,4 +206,19 @@ select {
 
 input[value] {
   font-weight: bold;
+}
+
+/* Why Us */
+.why-box {
+  background-color: #EBEEF2;
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+  border-radius: 30px;
+  width: 22%;
+  padding: 2rem;
+  margin: 0.5rem;
 }
