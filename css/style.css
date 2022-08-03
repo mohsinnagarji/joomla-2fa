@@ -67,7 +67,7 @@ h6 {
   border-radius: 25px;
   margin: 1rem;
   width: 25rem;
-  height: 17rem;
+  height: 18rem;
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -86,13 +86,21 @@ h6 {
 
 /* App Carousel */
 .app-carousel {
-  display: flex;
   overflow: hidden;
 }
 
 .app-gallery {
   display: flex;
   animation: scroll 20s linear infinite;
+}
+
+.app-icons {
+  width: 8%;
+  padding: 3rem;
+}
+
+.app-icons:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .app-gallery:hover {
@@ -108,15 +116,6 @@ h6 {
   100% {
     transform: translateX(calc(-15.625rem * 4.52));
   }
-}
-
-.app-icons {
-  width: 8%;
-  padding: 3rem;
-}
-
-.app-icons:hover {
-  transform: scale(1.05, 1.05);
 }
 
 /* Benefits */
