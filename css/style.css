@@ -155,9 +155,13 @@ p {
 }
 
 /* 2FA Methods */
+.methods {
+  background-color: #bab2b5;
+}
+
 .method-box {
   width: 350px;
-  background-color: #bab2b5;
+  background-color: whitesmoke;
   border-radius: 30px;
   margin: 2rem;
   box-shadow:
@@ -170,7 +174,7 @@ p {
 
 /* Pricing */
 .pricing {
-  background-color: #bab2b5;
+  background-color: #eee2dc;
 }
 
 .pricing-box {
@@ -218,6 +222,10 @@ input[value] {
 }
 
 /* Why Us */
+.why-mini {
+  background-color: #bab2b5;
+}
+
 .why-box {
   background-color: whitesmoke;
   box-shadow:
