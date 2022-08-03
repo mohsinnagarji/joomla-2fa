@@ -1,6 +1,7 @@
 /* General */
 body {
   font-family: "Open-sans", sans-serif;
+  background-color: #eee2dc;
 }
 
 h1,
@@ -10,6 +11,15 @@ h4,
 h5,
 h6 {
   font-family: "Jost", sans-serif;
+  color: #ac3b61;
+}
+
+p {
+  color: #123c69;
+}
+
+#heading-color {
+  color: #ac3b61;
 }
 
 /* Navbar Section */
@@ -53,17 +63,12 @@ h6 {
 }
 
 .hero-bg {
-  background-color: #36517e;
-}
-
-/* About */
-#heading-color {
-  color: #36517e;
+  background-color: #edc7b7;
 }
 
 /* Key Features */
 .key-box {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 25px;
   margin: 1rem;
   width: 25rem;
@@ -77,7 +82,7 @@ h6 {
 }
 
 .key-section {
-  background-color: #ebeef2;
+  background-color: #bab2b5;
 }
 
 .key-icons {
@@ -85,6 +90,10 @@ h6 {
 }
 
 /* App Carousel */
+.app-section {
+  background-color: whitesmoke;
+}
+
 .app-carousel {
   display: flex;
   overflow: hidden;
@@ -121,7 +130,7 @@ h6 {
 
 /* Benefits */
 .benefits {
-  background-color: #EBEEF2;
+  background-color: #eee2dc;
 }
 
 .benefits-img {
@@ -161,7 +170,7 @@ h6 {
 
 /* Pricing */
 .pricing {
-  background-color: #EBEEF2;
+  background-color: #bab2b5;
 }
 
 .pricing-box {
@@ -169,7 +178,7 @@ h6 {
   padding: 2rem;
   margin: 2rem;
   width: 375px;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -210,7 +219,7 @@ input[value] {
 
 /* Why Us */
 .why-box {
-  background-color: #EBEEF2;
+  background-color: whitesmoke;
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
