@@ -231,7 +231,8 @@ select {
 }
 
 .local-btn:hover {
-  background-color: #25274d;
+  background-color: #feffff;
+  color: #29648a;
 }
 
 input[value] {
